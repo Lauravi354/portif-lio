@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0F2B24; 
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-curvo svg {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.texto-porta {
+    fill: #FCD9E4; 
+    font-size: 150px;
+    font-weight: 900;
+    letter-spacing: 15px;
+}
+
+.foto-central {
+    width: 380px;
+    display: block;
+    margin: -180px auto 0 auto;
+    position: relative;
+    z-index: 10;
+
+    transition: transform 0.35s ease, filter 0.35s ease;
+    cursor: pointer;
+}
+
+.foto-central:hover {
+    transform: scale(1.12); 
+    filter: brightness(1.08); 
+}
+
+.nome {
+    position: fixed;
+    bottom: 20px;
+    left: 25px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.ano {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.menu-superior {
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    display: flex;
+    gap: 25px;
+    z-index: 20;
+}
+
+.menu-superior a {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    transition: transform 0.25s ease, color 0.25s ease;
+    letter-spacing: 1px;
+}
+
+.menu-superior a:hover {
+    transform: scale(1.07);
+    color: #FCD9E4;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 15px;
+}
+
+.icone-social {
+    width: 25px;   
+    height: 25px;  
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.icone-social:hover {
+    transform: scale(1.2);
+}
